@@ -1,0 +1,412 @@
+Starting Dynare (version 7.1).
+Calling Dynare with arguments: noclearall -DSTAGE=2 -DMHDRAWS=250000 -DMHBLOCKS=4 -DPOINT=1
+Starting preprocessing of the model file ... 
+WARNING: Parameter(s) thetap  not used in the model 
+Found 24 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+10 block(s) found: 
+  9 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 12 equation(s) 
+                                 and 12 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+3 block(s) found: 
+  2 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 12 equation(s) 
+                                 and 8 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c      		 0
+y      		 0
+n      		 0
+w      		 0
+mc     		 0
+mrs    		 0
+pi     		 0
+piw    		 0
+ir     		 0
+m      		 0
+h      		 0
+mu     		 0
+ahat   		 0
+aPhat  		 0
+aThat  		 0
+d      		 0
+z      		 0
+uw     		 0
+mpol   		 0
+v      		 0
+obs_pi 		 0
+obs_mu 		 0
+obs_dy 		 0
+obs_dm 		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+       1.909e-17        1.909e-17                0
+             0.1              0.1                0
+           0.594           0.5801           0.1277
+           0.594           0.5801          -0.1277
+          0.6953           0.6953                0
+           0.783            0.783                0
+             0.8              0.8                0
+             0.8              0.8                0
+             0.8              0.8                0
+             0.8              0.8                0
+            0.98             0.98                0
+           1.142             1.14          0.07418
+           1.142             1.14         -0.07418
+           1.441            1.441                0
+
+There are 3 eigenvalue(s) larger than 1 in modulus for 3 forward-looking variable(s).
+The order and rank conditions are verified.
+
+MODEL_DIAGNOSTICS:  No obvious problems with this mod-file were detected.
+
+Initial value of the log posterior (or likelihood): 978.7114
+Gradient norm  0.0025172
+Minimum Hessian eigenvalue 0.0010536
+Maximum Hessian eigenvalue 56623472.8583
+ 
+Iteration 1
+Correct for low angle: 0.000234098
+Predicted improvement:        0.000000003
+lambda =          1; f =         -978.7113383
+lambda =    0.33333; f =         -978.7113681
+lambda =    0.11111; f =         -978.7113714
+lambda =   0.037037; f =         -978.7113718
+lambda =   0.012346; f =         -978.7113718
+lambda =  0.0041152; f =         -978.7113718
+lambda =  0.0013717; f =         -978.7113718
+lambda = 0.00045725; f =         -978.7113718
+lambda = 0.00015242; f =         -978.7113718
+lambda = 5.0805e-05; f =         -978.7113718
+lambda = 9.8216e-05; f =         -978.7113718
+lambda = 0.00018987; f =         -978.7113718
+lambda = 0.00012785; f =         -978.7113718
+Norm of dx 0.00046768
+Predicted improvement:        0.000003168
+lambda =          1; f =         -843.9567490
+lambda =    0.33333; f =         -972.3623898
+lambda =    0.11111; f =         -978.1356074
+lambda =   0.037037; f =         -978.6512394
+lambda =   0.012346; f =         -978.7048232
+lambda =  0.0041152; f =         -978.7106490
+lambda =  0.0013717; f =         -978.7112917
+lambda = 0.00045725; f =         -978.7113629
+lambda = 0.00015242; f =         -978.7113709
+lambda = 5.0805e-05; f =         -978.7113717
+lambda = 1.6935e-05; f =         -978.7113718
+lambda =  5.645e-06; f =         -978.7113718
+lambda = 1.8817e-06; f =         -978.7113718
+lambda = 6.2723e-07; f =         -978.7113718
+lambda = 2.0908e-07; f =         -978.7113718
+lambda = 6.9692e-08; f =         -978.7113718
+lambda = 2.3231e-08; f =         -978.7113718
+lambda = 7.7435e-09; f =         -978.7113718
+lambda = 2.5812e-09; f =         -978.7113718
+lambda = 4.9899e-09; f =         -978.7113718
+lambda = 9.6463e-09; f =         -978.7113718
+lambda = 6.4953e-09; f =         -978.7113718
+lambda = 4.3736e-09; f =         -978.7113718
+lambda = 2.9449e-09; f =         -978.7113718
+lambda = 2.7038e-09; f =         -978.7113718
+lambda = 2.6219e-09; f =         -978.7113718
+lambda =  2.593e-09; f =         -978.7113718
+Norm of dx  0.0025172
+Sequence of univariate steps!!
+Try diagonal Hessian
+Predicted improvement:        0.000000000
+lambda =          1; f =         -978.7113718
+Norm of dx 4.8083e-08
+Try gradient direction
+Predicted improvement:        0.000000000
+lambda =          1; f =         -978.7113714
+lambda =    0.33333; f =         -978.7113718
+lambda =    0.11111; f =         -978.7113718
+lambda =   0.037037; f =         -978.7113718
+lambda =   0.012346; f =         -978.7113718
+lambda =  0.0041152; f =         -978.7113718
+lambda =  0.0013717; f =         -978.7113718
+lambda = 0.00045725; f =         -978.7113718
+lambda = 0.00015242; f =         -978.7113718
+lambda = 5.0805e-05; f =         -978.7113718
+lambda = 9.8216e-05; f =         -978.7113718
+lambda = 6.6133e-05; f =         -978.7113718
+lambda = 8.3845e-05; f =         -978.7113718
+lambda = 7.2718e-05; f =         -978.7113718
+lambda = 6.3068e-05; f =         -978.7113718
+lambda = 5.4698e-05; f =         -978.7113718
+lambda = 5.1965e-05; f =         -978.7113718
+lambda = 5.1015e-05; f =         -978.7113718
+Norm of dx 2.5172e-07
+No further improvement is possible!
+Actual dxnorm 2.8959e-08
+FVAL          -978.7114
+Improvement   1.9327e-12
+Ftol          1e-07
+Htol          1e-07
+Gradient norm  0.0025172
+Minimum Hessian eigenvalue 0.0010536
+Maximum Hessian eigenvalue 56623472.8583
+No further improvement is possible! Estimation successful.
+
+Final value of minus the log posterior (or likelihood):-978.711372 
+
+MODE CHECK
+
+Fval obtained by the optimization routine: -978.711372
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+       prior mean     mode    s.d.  prior pstdev
+
+xip        0.7500   0.8333  0.0456   beta 0.1000 
+iotap      0.5000   0.1766  0.0960   beta 0.2000 
+nu         1.2500   0.9330  0.1901   gamm 0.5000 
+rho_mu     0.6500   0.0955  0.0373   beta 0.1500 
+phi_pi     1.5000   0.3013  0.0944   gamm 0.6000 
+phi_y      0.1500   0.1285  0.0417   gamm 0.1000 
+sigP       0.0020   0.0031  0.0009   invg 0.0010 
+ratioT     6.0000   7.1819  2.0855   gamm 2.0000 
+sd_d       0.0100   0.0115  0.0009   invg 0.0070 
+sd_mu      0.0200   0.0511  0.0033   invg 0.0100 
+sd_v       0.0200   0.0522  0.0031   invg 0.0100 
+rho_v      0.8000   0.9629  0.0128   beta 0.1000 
+rhoP       0.9500   0.9693  0.0177   beta 0.0300 
+rhoT       0.1500   0.1080  0.0789   beta 0.0800 
+
+
+Log data density [Laplace approximation] is 936.926495.
+
+Native joint MAP validated; negative log posterior -978.711371844.
+
+Initial value of the log posterior (or likelihood): 978.7114
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+       prior mean     mode    s.d.  prior pstdev
+
+xip        0.7500   0.8333  0.0456   beta 0.1000 
+iotap      0.5000   0.1766  0.0960   beta 0.2000 
+nu         1.2500   0.9330  0.1901   gamm 0.5000 
+rho_mu     0.6500   0.0955  0.0373   beta 0.1500 
+phi_pi     1.5000   0.3013  0.0944   gamm 0.6000 
+phi_y      0.1500   0.1285  0.0417   gamm 0.1000 
+sigP       0.0020   0.0031  0.0009   invg 0.0010 
+ratioT     6.0000   7.1819  2.0855   gamm 2.0000 
+sd_d       0.0100   0.0115  0.0009   invg 0.0070 
+sd_mu      0.0200   0.0511  0.0033   invg 0.0100 
+sd_v       0.0200   0.0522  0.0031   invg 0.0100 
+rho_v      0.8000   0.9629  0.0128   beta 0.1000 
+rhoP       0.9500   0.9693  0.0177   beta 0.0300 
+rhoT       0.1500   0.1080  0.0789   beta 0.0800 
+
+
+Log data density [Laplace approximation] is 936.926495.
+
+mh_jscale has been set equal to 0.471
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in iran_miu/metropolis\iran_miu_mh_history_0.mat
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 4 workers.
+Parallel pool using the 'Processes' profile is shutting down.
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 4.
+Estimation::mcmc: Total number of iterations: 250000.
+Estimation::mcmc: Current acceptance ratio per chain:
+                                                       Chain  1: 33.7852%
+                                                       Chain  2: 33.6332%
+                                                       Chain  3: 33.8496%
+                                                       Chain  4: 33.56%
+Estimation::mcmc: Total number of MH draws per chain: 250000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 125001.
+Estimation::mcmc: Finally I keep 125000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2     Block 3     Block 4
+xip             172.884     163.405      86.553     183.927
+iotap            61.293      57.710      58.537      62.367
+nu               73.379      67.574      66.331      77.982
+rho_mu           71.024      64.284      74.994      71.983
+phi_pi           63.991      61.460      70.150      75.511
+phi_y            76.724      69.556      69.837      75.881
+sigP            307.140     298.294     157.852     296.929
+ratioT          173.000     154.572      96.954     215.734
+sd_d             76.978      64.764      68.927      74.690
+sd_mu            69.986      65.098      72.785      66.316
+sd_v             69.986      55.145      62.875      55.691
+rho_v            62.862      68.522      64.857      61.889
+rhoP             77.194      70.982      68.810      96.850
+rhoT             65.923      53.605      51.262      60.365
+
+
+
+Convergence diagnostics results for chain 1.
+
+Geweke (1992) Convergence Tests, based on means of draws 125000 to 150000 vs 187500 to 250000 for chain 1.
+p-values are for Chi2-test for equality of means.
+Parameter         Post. Mean        Post. Std   p-val No Taper   p-val 4% Taper   p-val 8% Taper  p-val 15% Taper
+xip                    0.824            0.048            0.000            0.405            0.458            0.487
+iotap                  0.204            0.093            0.002            0.676            0.691            0.703
+nu                     0.966            0.201            0.000            0.412            0.371            0.339
+rho_mu                 0.114            0.039            0.792            0.977            0.978            0.979
+phi_pi                 0.333            0.100            0.000            0.074            0.099            0.117
+phi_y                  0.151            0.044            0.000            0.473            0.471            0.520
+sigP                   0.004            0.001            0.000            0.455            0.495            0.508
+ratioT                 7.093            1.981            0.000            0.753            0.768            0.771
+sd_d                   0.012            0.001            0.000            0.301            0.333            0.393
+sd_mu                  0.053            0.003            0.000            0.574            0.582            0.604
+sd_v                   0.053            0.003            0.000            0.165            0.171            0.165
+rho_v                  0.961            0.013            0.000            0.142            0.119            0.132
+rhoP                   0.962            0.019            0.000            0.216            0.208            0.207
+rhoT                   0.127            0.067            0.000            0.363            0.367            0.360
+
+
+
+
+Convergence diagnostics results for chain 2.
+
+Geweke (1992) Convergence Tests, based on means of draws 125000 to 150000 vs 187500 to 250000 for chain 2.
+p-values are for Chi2-test for equality of means.
+Parameter         Post. Mean        Post. Std   p-val No Taper   p-val 4% Taper   p-val 8% Taper  p-val 15% Taper
+xip                    0.825            0.048            0.069            0.880            0.886            0.888
+iotap                  0.202            0.094            0.000            0.163            0.144            0.160
+nu                     0.969            0.201            0.000            0.441            0.460            0.441
+rho_mu                 0.114            0.040            0.000            0.376            0.366            0.333
+phi_pi                 0.335            0.101            0.196            0.872            0.876            0.878
+phi_y                  0.151            0.043            0.148            0.858            0.860            0.862
+sigP                   0.004            0.001            0.000            0.617            0.630            0.628
+ratioT                 7.042            1.905            0.233            0.923            0.926            0.923
+sd_d                   0.012            0.001            0.185            0.866            0.875            0.878
+sd_mu                  0.053            0.003            0.000            0.044            0.066            0.080
+sd_v                   0.053            0.003            0.000            0.093            0.091            0.065
+rho_v                  0.961            0.013            0.000            0.471            0.471            0.469
+rhoP                   0.962            0.019            0.000            0.653            0.652            0.650
+rhoT                   0.126            0.066            0.000            0.337            0.325            0.223
+
+
+
+
+Convergence diagnostics results for chain 3.
+
+Geweke (1992) Convergence Tests, based on means of draws 125000 to 150000 vs 187500 to 250000 for chain 3.
+p-values are for Chi2-test for equality of means.
+Parameter         Post. Mean        Post. Std   p-val No Taper   p-val 4% Taper   p-val 8% Taper  p-val 15% Taper
+xip                    0.824            0.047            0.000            0.341            0.320            0.311
+iotap                  0.201            0.092            0.004            0.674            0.688            0.730
+nu                     0.963            0.199            0.000            0.472            0.501            0.492
+rho_mu                 0.114            0.040            0.000            0.187            0.172            0.168
+phi_pi                 0.332            0.101            0.000            0.345            0.385            0.434
+phi_y                  0.151            0.044            0.013            0.797            0.802            0.779
+sigP                   0.003            0.001            0.000            0.659            0.666            0.670
+ratioT                 7.069            1.841            0.000            0.418            0.445            0.464
+sd_d                   0.012            0.001            0.000            0.439            0.406            0.387
+sd_mu                  0.053            0.004            0.000            0.197            0.230            0.255
+sd_v                   0.053            0.003            0.000            0.088            0.108            0.125
+rho_v                  0.961            0.013            0.000            0.005            0.004            0.003
+rhoP                   0.962            0.018            0.000            0.027            0.023            0.013
+rhoT                   0.127            0.068            0.000            0.323            0.272            0.221
+
+
+
+
+Convergence diagnostics results for chain 4.
+
+Geweke (1992) Convergence Tests, based on means of draws 125000 to 150000 vs 187500 to 250000 for chain 4.
+p-values are for Chi2-test for equality of means.
+Parameter         Post. Mean        Post. Std   p-val No Taper   p-val 4% Taper   p-val 8% Taper  p-val 15% Taper
+xip                    0.825            0.049            0.024            0.878            0.884            0.874
+iotap                  0.202            0.092            0.000            0.217            0.174            0.142
+nu                     0.963            0.199            0.000            0.466            0.426            0.460
+rho_mu                 0.114            0.040            0.000            0.375            0.378            0.367
+phi_pi                 0.334            0.097            0.117            0.860            0.845            0.828
+phi_y                  0.150            0.044            0.652            0.960            0.960            0.958
+sigP                   0.004            0.001            0.000            0.806            0.815            0.795
+ratioT                 7.089            2.000            0.025            0.874            0.880            0.868
+sd_d                   0.012            0.001            0.000            0.291            0.281            0.258
+sd_mu                  0.053            0.003            0.000            0.432            0.361            0.341
+sd_v                   0.053            0.003            0.073            0.806            0.829            0.835
+rho_v                  0.961            0.013            0.003            0.680            0.682            0.681
+rhoP                   0.962            0.019            0.135            0.877            0.870            0.855
+rhoT                   0.126            0.068            0.353            0.887            0.870            0.841
+
+
+Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+    Parameter 7...  Done! 
+    Parameter 8...  Done! 
+    Parameter 9...  Done! 
+    Parameter 10...  Done! 
+    Parameter 11...  Done! 
+    Parameter 12...  Done! 
+    Parameter 13...  Done! 
+    Parameter 14...  Done! 
+
+marginal density: I'm computing the posterior mean and covariance...  Done!
+marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density (Modified Harmonic Mean) is 936.908516.
+parameters
+         prior mean   post. mean        90% HPD interval    prior       pstdev
+
+xip           0.750       0.8238      0.7461      0.9019     beta       0.1000
+iotap         0.500       0.2014      0.0504      0.3422     beta       0.2000
+nu            1.250       0.9651      0.6303      1.2820     gamm       0.5000
+rho_mu        0.650       0.1138      0.0479      0.1749     beta       0.1500
+phi_pi        1.500       0.3332      0.1711      0.4899     gamm       0.6000
+phi_y         0.150       0.1506      0.0794      0.2220     gamm       0.1000
+sigP          0.002       0.0035      0.0020      0.0050     invg       0.0010
+ratioT        6.000       7.0522      3.9425     10.0498     gamm       2.0000
+sd_d          0.010       0.0118      0.0103      0.0132     invg       0.0070
+sd_mu         0.020       0.0525      0.0467      0.0579     invg       0.0100
+sd_v          0.020       0.0528      0.0476      0.0578     invg       0.0100
+rho_v         0.800       0.9613      0.9407      0.9828     beta       0.1000
+rhoP          0.950       0.9620      0.9355      0.9910     beta       0.0300
+rhoT          0.150       0.1266      0.0195      0.2294     beta       0.0800
+Estimation::mcmc: Posterior (dsge) IRFs...
+Estimation::mcmc: Posterior IRFs, done!
+Estimation::mcmc: Smoothed variables
+Estimation::mcmc: Smoothed variables, done!
+Estimation::mcmc: Smoothed shocks
+Estimation::mcmc: Smoothed shocks, done!
+Estimation::mcmc: Trend coefficients
+Estimation::mcmc: Trend coefficients, done!
+Estimation::mcmc: Init State
+Estimation::mcmc: Init State, done!
+Estimation::mcmc: Smoothed constant
+Estimation::mcmc: Smoothed constant, done!
+Estimation::mcmc: Smoothed trend
+Estimation::mcmc: Smoothed trend, done!
+Estimation::mcmc: Updated Variables
+Estimation::mcmc: Updated Variables, done!
+
+Total computing time : 0h34m30s
+Note: 1 warning(s) encountered in the preprocessor
