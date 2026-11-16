@@ -1,0 +1,15 @@
+Parameter,PriorLower,PriorUpper,SamplerLower,SamplerUpper,SupportMatches
+xip,0,1,0,1,1
+iotap,0,1,0,1,1
+nu,0,Inf,0,Inf,1
+rho_mu,0,1,0,1,1
+phi_pi,0,Inf,0,Inf,1
+phi_y,0,Inf,0,Inf,1
+sigP,0,Inf,0,Inf,1
+ratioT,1.1,Inf,1.1,Inf,1
+sd_d,0,Inf,0,Inf,1
+sd_mu,0,Inf,0,Inf,1
+sd_v,0,Inf,0,Inf,1
+rho_v,0,1,0,1,1
+rhoP,0.6,0.995,0.6,0.995,1
+rhoT,0.001,0.5,0.001,0.5,1
